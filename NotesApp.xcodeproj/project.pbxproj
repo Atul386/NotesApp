@@ -14,6 +14,8 @@
 		C9D9A9EC2BB6784100106BB6 /* NotesApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9D9A9EA2BB6784100106BB6 /* NotesApp.xcdatamodeld */; };
 		C9D9A9EE2BB6784300106BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D9A9ED2BB6784300106BB6 /* Assets.xcassets */; };
 		C9D9A9F12BB6784300106BB6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C9D9A9F02BB6784300106BB6 /* Base */; };
+		C9D9A9FD2BB71BF600106BB6 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D9A9FC2BB71BF600106BB6 /* EntryViewController.swift */; };
+		C9D9A9FF2BB71C1B00106BB6 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D9A9FE2BB71C1B00106BB6 /* NoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C9D9A9ED2BB6784300106BB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9D9A9F02BB6784300106BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9D9A9F22BB6784300106BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9D9A9FC2BB71BF600106BB6 /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		C9D9A9FE2BB71C1B00106BB6 /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				C9D9A9E12BB6784100106BB6 /* AppDelegate.swift */,
+				C9D9A9FE2BB71C1B00106BB6 /* NoteViewController.swift */,
 				C9D9A9E32BB6784100106BB6 /* SceneDelegate.swift */,
+				C9D9A9FC2BB71BF600106BB6 /* EntryViewController.swift */,
 				C9D9A9E52BB6784100106BB6 /* ViewController.swift */,
 				C9D9A9E72BB6784100106BB6 /* Main.storyboard */,
 				C9D9A9ED2BB6784300106BB6 /* Assets.xcassets */,
@@ -144,6 +150,8 @@
 				C9D9A9E62BB6784100106BB6 /* ViewController.swift in Sources */,
 				C9D9A9E22BB6784100106BB6 /* AppDelegate.swift in Sources */,
 				C9D9A9E42BB6784100106BB6 /* SceneDelegate.swift in Sources */,
+				C9D9A9FD2BB71BF600106BB6 /* EntryViewController.swift in Sources */,
+				C9D9A9FF2BB71C1B00106BB6 /* NoteViewController.swift in Sources */,
 				C9D9A9EC2BB6784100106BB6 /* NotesApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
